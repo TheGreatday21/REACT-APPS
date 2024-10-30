@@ -1,9 +1,10 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
-function Home() {
+function Home(){
   return <div>
-    <p>God loves me and you too</p>
-  </div>
+    <p>Iam the righteousness of God through Jesus Christ </p>
+    <p> God loves you and me</p>
+  </div>       
 };
 export default Home;
