@@ -11,7 +11,7 @@ function Elijah(){
     <p>This is sample code </p>
     <title />
     <p>This is the start of our semester project</p>
-    <content Lorem ip sum/>
+    <content />
   </div>
 );
 }
