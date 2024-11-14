@@ -1,17 +1,50 @@
 import Title from "./components/Title"
 import Content from  "./components/Content"
 import Footer from "./components/Footer"
-function Home (){
-  return( 
-    <div> 
-      <Title  heading = "God is good" />
-      <Content  details = "This is a very nice blog from Elijah the Greatday 21" />
-      <br />
-      <p>God loves me </p>
-      <p> Iam a child of God and iam the vine </p>
-      <Footer footer = "Jesus loves you and you should know that child of God "/>
+import { useEffect, useState } from "react";
 
-    </div>
-);
+
+function Home (){
+
+  const [showBlog , setBlog] = useState('NO BUTTON HAS BEEN CLICKED');
+  const[movies_data, setmovies_data] = useState([]);
+
+  function changeBlogs(){
+    setShowBlog(!showBlog);
+
+    if (showBlog) {
+      setRandomText("This is MUK")
+    }else{
+      setRandomText('This is UCU')
+    }
+  }
+
+
+  function fetchtopMovies (){
+  
+  }
+  useEffect(() => {
+    console.log("The component is mounted ");
+  },[])
+
+
+  return( 
+    <div>
+      {showBlog ? <div>
+        <Title  heading = "Makerere"/>
+        <Content  details = "This is a very nice blog about muk in Uganda"/> </div>
+          : <div>
+          <Title  heading = "MUganda Christian University" />
+          <Content  details = "This is a very nice blog about UCU in Uganda" />
+          <Footer footer = "Jesus loves you and you should know that child of God "/>
+          </div>
+      }
+      <Button variant="contained">CLICK ME NOW </Button>
+        <br/>
+        <p>{setRandomText}</p>
+        
+      </div>
+  );
+
 }
 export default Home;
