@@ -1,0 +1,13 @@
+.body{
+  background-color:hsl(320, 39%, 5%) ;
+}
+.h1_tag{
+  text-align: center;
+  color: #2f1043;
+  font-size:500%;
+}
+.h2_tag{
+  text-align: left;
+  color: #2f1043;
+  font-size:230%;
+}

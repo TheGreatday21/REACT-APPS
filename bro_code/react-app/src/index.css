@@ -1,0 +1,104 @@
+/*
+.card{
+  border : 1px  solid #0e0f2a;
+  border-radius:  10px;
+  box-shadow: 5px 5px 5px;
+  padding : 20px;
+  margin: 10px;
+  text-align:  center;
+  max-width: 250px;
+  display: inline-block;
+
+}
+
+.card .card_image{
+  max-width : 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px ;
+
+}
+.card .card-title{
+  font-family: Arial,sans-serif;
+  margin : 0;
+  color : #a471a6;
+}
+
+.card .card-text{
+  font-family: Arial ;
+  color : #a471a6;
+}
+*/
+/*External css for button 
+.button{
+  background-color:#4276a2 ;
+  color: rgb(9, 39, 77);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor : pointer;
+}
+  */
+
+
+.student{
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  border: 2px solid;
+  font-size: 2em;
+
+}
+
+.student .p {
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
