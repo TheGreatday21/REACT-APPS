@@ -1,5 +1,5 @@
 import Footer from "../components/Footer.js"
-import { Navbar } from "../components/Navbar.js";
+import { Navbar } from "../components/Navbar.jsx";
 
 export default function Income(){
     return(

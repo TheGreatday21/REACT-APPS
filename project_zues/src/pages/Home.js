@@ -1,6 +1,6 @@
 import Header from "../components/Header.js";
 import Footer from "../components/Footer.js"
-import { Navbar } from "../components/Navbar.js";
+import { Navbar } from "../components/Navbar.jsx";
 
 function Home(){
     return(

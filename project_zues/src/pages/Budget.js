@@ -1,14 +1,20 @@
 import Footer from "../components/Footer.js";
-import { Navbar } from "../components/Navbar.js";
+import { Navbar } from "../components/Navbar.jsx";
 
-export default function Budget(){
+function Budget(){
     return(
         <>
         <Navbar/>
+        
         <div>
             <p>This is the Budget </p>
+            
         </div>
         <Footer/>
         </>
     );
+
+                    
 }
+
+export default Budget;
